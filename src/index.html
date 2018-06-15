@@ -2,29 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Cifrado César</title>
   </head>
   <body>
 
-    <font color=#FBFCFC>
+    <div>
       <h1 align="center">SOCIEDAD DE FIESTAS SECRETAS</h1>
-    </font>
+    </div>
+
+    <div>
+      <h2 align="center">Extrañamente divertido</h2>
+      <h3 align="center">Comunicate con tus amigos de manera confidencial y divertida</h3>
+    </div>
 
     <section class="container">
+      <div align="center" class="box">
+        <input id="desplazamiento" type="number" placeholder="Clave numérica"/>
+      </div>
 
-      <div class="box">
-        <input id="desplazamiento" type="number" placeholder="Desplazamiento"/>
+      <div align="center" class="box">
         <input id="texto" type="text" size="40" placeholder="Letra, Palabra o Frase"/>
         <button type="button" onclick="cifrar()">Cifrar</button>
         <button type="button" onclick="descifrar()">Desifrar</button>
       </div>
 
-      <p id="resultadoC">Frase Cifrada = </p>
-      <p id="resultadoD">Frase Descifrada = </p>
+
+      <p align="center" id="resultadoC">Texto Cifrado = </p>
+      <p align="center" id="resultadoD">Texto Descifrado = </p>
+
 
     </section>
-
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="cipher.js"></script>
   </body>
 </html>
