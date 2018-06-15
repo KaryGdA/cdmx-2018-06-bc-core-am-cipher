@@ -1,0 +1,29 @@
+body{
+  background-color: #F9E79F;
+}
+
+h1 {
+  background:#A569BD;
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  overflow:hidden;
+  font-family: Lucida, Monospace;
+  font-size: 40px;
+}
+
+section{
+  background:#00D1A8;
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  overflow:hidden;
+  font-size: 30px;
+  align-content: center;
+}
+
+P{
+  font-size: 25px;
+  font-family: Lucida, Monospace;
+  color: #5B2C6F;
+}

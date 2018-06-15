@@ -2,12 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cifrado César</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+
+    <font color=#FBFCFC>
+      <h1 align="center">SOCIEDAD DE FIESTAS SECRETAS</h1>
+    </font>
+
+    <section class="container">
+
+      <div class="box">
+        <input id="desplazamiento" type="number" placeholder="Desplazamiento"/>
+        <input id="texto" type="text" size="40" placeholder="Letra, Palabra o Frase"/>
+        <button type="button" onclick="cifrar()">Cifrar</button>
+        <button type="button" onclick="descifrar()">Desifrar</button>
+      </div>
+
+      <p id="resultadoC">Frase Cifrada = </p>
+      <p id="resultadoD">Frase Descifrada = </p>
+
+    </section>
+
+    <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
