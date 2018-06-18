@@ -4,9 +4,11 @@ body{
 }
 
 h1 {
+
   border-radius: 15px;
   background: #5DADE2  /*#00BCD4 /*#BA68C8*/;
   width:48%;
+
   max-width:1000px;
   margin:auto;
   overflow:hidden;
@@ -30,6 +32,7 @@ h3 {
   font-size: 15px;
   color: #A569BD;
 }
+
 
 .boton1 {
   border-radius: 15px;
@@ -79,6 +82,7 @@ h3 {
 
 section{
   /*background:#00BCD4;*/
+
   width:90%;
   max-width:1000px;
   margin:auto;
@@ -88,6 +92,7 @@ section{
 }
 
 P{
+
   /*background-color: #00BCD4;*/
   font-size: 25px;
   font-family: Lucida, Monospace;
