@@ -1,6 +1,6 @@
 window.cipher = {
   // Función para cifrar.
-  let cifrar = () => {
+  encode = (offset, string) => {
   let mensaje = caracteres.value;
   let ubicacion = parseInt(lugares.value);
     for (let i = 0; i < mensaje.length; i++) {
@@ -13,7 +13,7 @@ window.cipher = {
   console.log(nuevaFrase);
     }
 
-    let descifrar = () => {
+    let decode = () => {
     let nuevaFrase = caracteres.value;
     let ubicacionFinal = parseInt(lugares.value);
 

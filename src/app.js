@@ -11,6 +11,9 @@ let mensaje = caracteres.value;
 let ubicacion = parseInt(lugares.value);
   for (let i = 0; i < mensaje.length; i++) {
     // Formula Cifrado César (x - 65  + n ) % 26 +651
+    if (mensaje.length = 32) {
+      return " ";
+    }
     fraseCifrada [i]= ((mensaje.charCodeAt(i)) - 65  + ubicacion ) % 26 + 65;
     nuevaFrase [i] = String.fromCharCode(fraseCifrada [i]);
     resultadoC.innerHTML += nuevaFrase [i];
