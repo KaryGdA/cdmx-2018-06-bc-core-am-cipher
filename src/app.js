@@ -10,7 +10,7 @@ let cifrar = () => {
 let mensaje = caracteres.value;
 let ubicacion = parseInt(lugares.value);
   for (let i = 0; i < mensaje.length; i++) {
-    // Formula Cifrado César (x - 65  + n ) % 26 +651
+    // Formula Cifrado César (x - 65  + n ) % 26 +65
     if (mensaje.length = 32) {
       return " ";
     }
