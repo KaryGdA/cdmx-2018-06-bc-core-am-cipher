@@ -1,17 +1,21 @@
------------ UX Desing -----------
-TIPO DE USUARIO y MOTIVOS DE USO.
--Mujeres y hombres de entre 16 a 20 años.
--Conocimientos básicos de internet.
-Dicha aplicación está enfocada a jovenes que desean realizar fiestas secretas y necesitan que sus mensajes no sean leídos por otras personas.
-USABILIDAD.
-La estructura
--El usuario debe asignar una clave númerica. Posteriormente debe proporcionarla para que sea desifrada.
--La aplicación debe ser capaz de cifrar la letra, palabra, o frase que el usuario ingrese.
--Se elegirá una paleta de colores amigables, ya que son suaves y agradables a la vista.
------------ Frond-End -----------
-INFORMACIÓN TÉCNICA.
-Para la programación se utilizarán "Codigo ASCII", así como los métodos "String.charCodeAt()" [que devuelve el valor ASCII del carácter proporcionado] y "String.fromCharCode() [que devuelve el carácter proporcionado en lugar del valor ASCII]
+UX Desing
 
+TIPO DE USUARIO y MOTIVOS DE USO.
+-Mujeres y hombres de entre 15 a 20 años.
+-Conocimientos básicos de internet.
+Dicha aplicación está enfocada a jovenes que desean realizar fiestas secretas y necesitan que sus mensajes no sean leídos por personas externas.
+
+USABILIDAD.
+La estructura de la pagina es la siguiente: título de la página, slogan, espacio para la asignación de clave númerica, espacio para escribir la letra palabra o frase, botón de cifrar o descifrar, párrafo donde aparecera el texto cifrado, párrafo donde aparecera el texto descifrado, y el personaje de la página.
+-El usuario debe asignar una clave númerica.
+-Posteriormente, debe escribir la letra, palabra o frase que desea.
+-Para desifrar la letra, palabra o frase, y que otra persona pueda leerla correctamente, se deberá proporcionar la clave númerica antes mencionada.
+-Se elegirá una paleta de colores amigables, que sean suaves y agradables a la vista.
+
+Frond-End
+INFORMACIÓN TÉCNICA.
+-La aplicación debe ser capaz de cifrar la letra, palabra, o frase que el usuario ingrese.
+-Para la programación se utilizarán "Codigo ASCII", así como los métodos "String.charCodeAt()" [que devuelve el valor ASCII del carácter proporcionado] y "String.fromCharCode() [que devuelve el carácter proporcionado en lugar del valor ASCII]
 
 
 
